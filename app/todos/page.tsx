@@ -2,7 +2,6 @@
 import AddTodoModal from "@/components/addTodoModal";
 import Header from "@/components/header";
 import CheckGreen from "@/components/svg/checkGreen";
-import TodosLogo from "@/components/svg/todosLogo";
 import TaskModal from "@/components/taskModal";
 import todoIcons from "@/components/todoIcons";
 import { todosFatch } from "@/utils/fatch/todo/todosFatch";
@@ -11,7 +10,6 @@ import { DoneHandle } from "@/utils/handles/DoneHandle";
 import { useState, useEffect } from "react";
 import { BiExpandVertical } from "react-icons/bi";
 import { CgAddR } from "react-icons/cg";
-import { IoIosAddCircleOutline } from "react-icons/io";
 
 export interface ITask {
   id: number;
