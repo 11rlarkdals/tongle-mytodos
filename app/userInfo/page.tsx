@@ -107,31 +107,6 @@ const UserInfo: React.FC = () => {
 
           <div>
             <div className="flex gap-4">
-              <div className="text-white">성별</div>
-              <select
-                className="text-slate-800 w-[20rem]"
-                name="gender"
-                onChange={handleInputChange}
-              >
-                {/* {Object.values(Gender).map((item) => (
-                  <option key={item} value={item}>
-                    {item.charAt(0).toUpperCase() + item.slice(1)}
-                  </option>
-                ))} */}
-                {/* <option key="male" value="male">
-                  남자
-                </option>
-                <option key="female" value="female">
-                  여자
-                </option>
-                <option key="other" value="other">
-                  그 외
-                </option> */}
-              </select>
-            </div>
-          </div>
-          <div>
-            <div className="flex gap-4">
               <div className="text-white">주소</div>
               <input
                 className="text-slate-800 w-[20rem]"
