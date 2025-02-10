@@ -9,13 +9,15 @@ export default function HomePage() {
       <header className="text-center">
         <div className="flex-col flex md:flex-row gap-8 justify-center items-center">
           <div className="mx-12">
-            <h1 className="text-5xl font-bold mb-4">강@민 My-Todos</h1>
+            <h1 className="text-5xl font-bold mb-4">rkrkfmfm My-Todos</h1>
             <p className="text-xl max-w-lg">
               Organize your life with ease. Sign up today and start managing
               your tasks like a pro.
             </p>
           </div>
           <div>
+            <div className="text-xl">Google Login</div>
+
             <GoogleLogin onGoogleLogin={onGoogleLogin} />
           </div>
         </div>
