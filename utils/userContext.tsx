@@ -2,12 +2,6 @@
 import axios from "axios";
 import { createContext, ReactNode, useEffect, useState } from "react";
 
-export enum Gender {
-  MALE = "male",
-  FEMALE = "female",
-  OTHER = "other",
-}
-
 type UserType =
   | {
       id: number;
@@ -17,7 +11,6 @@ type UserType =
       photoBase64: string;
       picture: string;
       studentNum: string;
-      gender: Gender;
     }
   | undefined;
 
